@@ -51,13 +51,21 @@ export default function GelballWastelandWebsite() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-orange-500 hover:bg-orange-400 text-black font-bold px-6 py-3 rounded-2xl transition">
+              <a
+                href="https://forms.gle/YOURBOOKINGFORM"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-orange-500 hover:bg-orange-400 text-black font-bold px-6 py-3 rounded-2xl transition inline-block"
+              >
                 Book A Game
-              </button>
+              </a>
 
-              <button className="border border-zinc-700 hover:border-orange-500 px-6 py-3 rounded-2xl transition">
+              <a
+                href="#calendar"
+                className="border border-zinc-700 hover:border-orange-500 px-6 py-3 rounded-2xl transition inline-block"
+              >
                 View Game Calendar
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -92,7 +100,7 @@ export default function GelballWastelandWebsite() {
       </section>
 
       {/* GAME CALENDAR */}
-      <section className="border-y border-zinc-800 bg-zinc-950">
+      <section id="calendar" className="border-y border-zinc-800 bg-zinc-950">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <div className="flex items-center justify-between mb-10 flex-wrap gap-4">
             <div>
@@ -107,6 +115,18 @@ export default function GelballWastelandWebsite() {
             <button className="border border-orange-500 text-orange-500 px-5 py-3 rounded-2xl hover:bg-orange-500 hover:text-black transition">
               Full Schedule
             </button>
+          </div>
+
+          <div className="mb-10 rounded-3xl overflow-hidden border border-zinc-800 bg-black p-2">
+            <iframe
+              src="https://calendar.google.com/calendar/embed?src=<iframe src="https://calendar.google.com/calendar/embed?src=the_wasteland%40outlook.com&ctz=Australia%2FBrisbane" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+              style={{ border: 0 }}
+              width="100%"
+              height="600"
+              frameBorder="0"
+              scrolling="no"
+              title="Gelball Wasteland Calendar"
+            ></iframe>
           </div>
 
           <div className="grid gap-5">
@@ -271,6 +291,83 @@ export default function GelballWastelandWebsite() {
       </section>
 
       {/* FOOTER */}
+      {/* WAIVER FORM */}
+      <section className="max-w-4xl mx-auto px-6 py-16">
+        <div className="text-center mb-10">
+          <p className="text-orange-500 uppercase tracking-widest text-sm mb-2">
+            Required Before Play
+          </p>
+          <h2 className="text-4xl font-black text-white mb-4">
+            Digital Waiver Form
+          </h2>
+          <p className="text-zinc-400">
+            All players must complete the online waiver before entering the field.
+          </p>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 text-center">
+          <a
+            href="https://forms.gle/YOURWAIVERFORM"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-orange-500 hover:bg-orange-400 text-black font-bold px-8 py-4 rounded-2xl transition inline-block"
+          >
+            Complete Waiver
+          </a>
+        </div>
+      </section>
+
+      {/* CONTACT */}
+      <section className="bg-zinc-950 border-y border-zinc-800">
+        <div className="max-w-4xl mx-auto px-6 py-16">
+          <div className="text-center mb-10">
+            <p className="text-orange-500 uppercase tracking-widest text-sm mb-2">
+              Contact The Wasteland
+            </p>
+            <h2 className="text-4xl font-black text-white">
+              Get In Touch
+            </h2>
+          </div>
+
+          <form
+            action="https://formspree.io/f/YOURFORMID"
+            method="POST"
+            className="space-y-6"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              className="w-full bg-black border border-zinc-700 rounded-2xl px-5 py-4 text-white"
+              required
+            />
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              className="w-full bg-black border border-zinc-700 rounded-2xl px-5 py-4 text-white"
+              required
+            />
+
+            <textarea
+              name="message"
+              placeholder="Message"
+              rows="5"
+              className="w-full bg-black border border-zinc-700 rounded-2xl px-5 py-4 text-white"
+              required
+            ></textarea>
+
+            <button
+              type="submit"
+              className="bg-orange-500 hover:bg-orange-400 text-black font-bold px-8 py-4 rounded-2xl transition"
+            >
+              Send Transmission
+            </button>
+          </form>
+        </div>
+      </section>
+
       <footer className="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-zinc-500">
         <div>
           <p className="font-bold text-zinc-300">Gelball Wasteland</p>
