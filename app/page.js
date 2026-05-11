@@ -310,7 +310,7 @@ export default function GelballWastelandWebsite() {
 
         <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 text-center">
           <a
-            href="https://forms.gle/https://docs.google.com/forms/d/e/1FAIpQLSdnIi3o5bJZ9kj6s80D1zGfv5VLivEbB7vE0T2FgO-ssv08qA/viewform?usp=publish-editor"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdnIi3o5bJZ9kj6s80D1zGfv5VLivEbB7vE0T2FgO-ssv08qA/viewform?usp=publish-editor"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-orange-500 hover:bg-orange-400 text-black font-bold px-8 py-4 rounded-2xl transition inline-block"
