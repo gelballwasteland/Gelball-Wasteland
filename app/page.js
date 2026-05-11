@@ -52,7 +52,7 @@ export default function GelballWastelandWebsite() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://forms.gle/https://calendar.app.google/n2PRmRakrPqeoyYT7"
+                href="https://calendar.app.google/n2PRmRakrPqeoyYT7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-400 text-black font-bold px-6 py-3 rounded-2xl transition inline-block"
