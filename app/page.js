@@ -374,7 +374,7 @@ export default function GelballWastelandWebsite() {
       <footer className="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-zinc-500">
         <div>
           <p className="font-bold text-zinc-300">Gelball Wasteland</p>
-          <p>Queensland, Australia</p>
+          <p>161 Hills road,South Bingera, Queensland, Australia</p>
         </div>
 
         <div className="flex gap-6">
