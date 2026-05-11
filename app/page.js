@@ -142,9 +142,9 @@ export default function GelballWastelandWebsite() {
                 desc: 'Low light chaos, tracers, flashlights and panic.'
               },
               {
-                title: 'Faction Wars Event',
-                date: 'Coming Soon',
-                desc: 'Large scale themed wasteland battle event.'
+                title: 'Private Events',
+                date: 'Mon - Fri ',
+                desc: 'Group booking, Birthday parties, Work event.'
               }
             ].map((event, i) => (
               <div
@@ -183,12 +183,12 @@ export default function GelballWastelandWebsite() {
           {[
             {
               title: 'Field Entry',
-              price: '$30',
+              price: '$35',
               details: 'Bring your own gear and join the chaos.'
             },
             {
               title: 'Rental Package',
-              price: '$50',
+              price: '$60',
               details: 'Includes blaster, mask and starter gels.'
             },
             {
@@ -229,11 +229,14 @@ export default function GelballWastelandWebsite() {
 
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              'Eye protection must remain on at all times in active play zones.',
-              'No blind firing or unsafe behavior.',
-              'Respect referees and other players.',
-              'Chrono limits apply to all blasters.',
-              'Anyone causing unsafe situations will be removed from games.'
+              'No.1 Eye protection - must remain on at all times in active play zones.',
+              'No.2 Safe Zone -  Magazine out and chamber cleared before leaving the field.',
+              'No.3 FPS Limits Apply - 350fps Max ',
+              'No.4 No Blind Fire - Look where you shoot.',
+              'No.5 Call your hits - All Players are to call their hits.',
+              'No.6 Dead Men Dont Talk - No talking whle waiting for revival or respawning.',
+              'No.7 Grenade! - All grenades have a 3 meter radius.',
+              
             ].map((rule, i) => (
               <div
                 key={i}
