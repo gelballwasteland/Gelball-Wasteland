@@ -119,7 +119,7 @@ export default function GelballWastelandWebsite() {
 
           <div className="mb-10 rounded-3xl overflow-hidden border border-zinc-800 bg-black p-2">
             <iframe
-              src="https://calendar.google.com/calendar/embed?src=<iframe src="https://calendar.google.com/calendar/embed?src=the_wasteland%40outlook.com&ctz=Australia%2FBrisbane" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+              src="https://calendar.google.com/calendar/embed?src=<iframe src==the_wasteland%40outlook.com&ctz=Australia%2FBrisbane>
               style={{ border: 0 }}
               width="100%"
               height="600"
